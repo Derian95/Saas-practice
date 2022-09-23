@@ -1,0 +1,21 @@
+
+.card-container{
+    font-size: $medium-heading;
+    background-color: $color-card;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    @include flex-center('center', column);
+
+    h1{
+        @include title-main();
+    }
+
+    p{
+        font-size:$small-heading;
+        color:$color-text;
+    }
+
+    
+} 

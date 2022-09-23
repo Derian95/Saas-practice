@@ -1,0 +1,6 @@
+.home-container{
+    @include title-main();
+    @include flex-center('center',column);
+    font-size:$title-main;
+    min-height: 100vh;
+}

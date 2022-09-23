@@ -1,0 +1,28 @@
+@mixin flex-center ($position,$orientation:row){
+    
+    @if($position=='center'){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: $orientation;
+    }
+    @if($position=='aroud'){
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: $orientation;
+    }
+    @if($position=='evenly'){
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: $orientation;
+    }
+    @if($position=='between'){
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: $orientation;
+    }
+
+}

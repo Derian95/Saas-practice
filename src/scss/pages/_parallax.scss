@@ -1,0 +1,21 @@
+.parallax {
+  background-image: url("https://i.pinimg.com/564x/da/ce/28/dace28adf1cc40de1fd125baf304e7e3.jpg");
+  min-height: 500px;
+  opacity: .77;
+  width: 99vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  @include flex-center('center',column);
+  h1{
+    color:$color-title;
+  }
+}
+
+.text {
+  height: 1000px;
+  background-color: $color-card;
+  font-size: 36px;
+  color: $color-text;
+}
